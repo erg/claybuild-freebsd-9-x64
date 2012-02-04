@@ -1,0 +1,55 @@
+[  4%] Building CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.o
+[  8%] Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
+[ 12%] Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
+[ 16%] Building CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.o
+[ 20%] Building CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.o
+[ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.o
+[ 29%] Building CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.o
+[ 33%] Building CXX object compiler/src/CMakeFiles/clay.dir/evaluator.cpp.o
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3064:6: warning: #warning "--- The following warnings are expected ---"
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerShiftLeftChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3098: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3108: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerShiftLeftChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3098: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3108: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerDivideChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3167: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerDivideChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3167: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerSubtractChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3087: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerSubtractChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3087: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerAddChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3075: warning: comparison is always false due to limited range of data type
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerAddChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4631:   instantiated from here
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3075: warning: comparison is always false due to limited range of data type
+[ 37%] Building CXX object compiler/src/CMakeFiles/clay.dir/externals.cpp.o
+[ 41%] Building CXX object compiler/src/CMakeFiles/clay.dir/hirestimer.cpp.o
+[ 45%] Building CXX object compiler/src/CMakeFiles/clay.dir/invoketables.cpp.o
+[ 50%] Building CXX object compiler/src/CMakeFiles/clay.dir/lambdas.cpp.o
+[ 54%] Building CXX object compiler/src/CMakeFiles/clay.dir/lexer.cpp.o
+[ 58%] Building CXX object compiler/src/CMakeFiles/clay.dir/literals.cpp.o
+[ 62%] Building CXX object compiler/src/CMakeFiles/clay.dir/loader.cpp.o
+[ 66%] Building CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.o
+[ 70%] Building CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.o
+[ 75%] Building CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.o
+[ 79%] Building CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.o
+[ 83%] Building CXX object compiler/src/CMakeFiles/clay.dir/parser.cpp.o
+[ 87%] Building CXX object compiler/src/CMakeFiles/clay.dir/patterns.cpp.o
+[ 91%] Building CXX object compiler/src/CMakeFiles/clay.dir/printer.cpp.o
+[ 95%] Building CXX object compiler/src/CMakeFiles/clay.dir/profiler.cpp.o
+[100%] Building CXX object compiler/src/CMakeFiles/clay.dir/types.cpp.o
+Linking CXX executable clay
+[100%] Built target clay
