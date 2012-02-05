@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@e945cc6299b9c060a028580f1ad059c9eb9d6380 (2012-02-03 15:15:00 -0800)
+version: jckarter/clay@f23eb821be1a84c9b5c855b90663d84d54cd91bb (2012-02-04 16:10:35 -0800)
 repository: https://github.com/jckarter/clay
 
 [TargetPlatform]
@@ -104,6 +104,8 @@ lambdas/dynamic/makelambda: ok
 lambdas/papply: ok
 lambdas/stateless: ok
 lambdas/vararg: ok
+lambdas/mono: ok
+lambdas/monoinputtypes: ok
 libc/setjmplongjmp: ok
 llvm/1: ok
 llvm/2: ok
@@ -299,10 +301,10 @@ floats/literals/long: out.txt mismatch
 math/sqrt: out.txt mismatch
 
 [Summary]
-Passed: 263
+Passed: 265
 Disabled: 13
 Failed: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 785.201471
+time-taken-seconds: 803.353519
