@@ -1,7 +1,14 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@f23eb821be1a84c9b5c855b90663d84d54cd91bb (2012-02-04 16:10:35 -0800)
+version: jckarter/clay@2a29f90f555fcd1b4b6ca52e9eb23b58fb83043a (2012-02-06 13:48:23 -0800)
 repository: https://github.com/jckarter/clay
+
+[SystemUname]
+system: FreeBSD
+machine: amd64
+version: FreeBSD 9.0-RELEASE #0: Tue Jan  3 07:46:30 UTC 2012     root@farrell.cse.buffalo.edu:/usr/obj/usr/src/sys/GENERIC
+release: 9.0-RELEASE
+processor: amd64
 
 [TargetPlatform]
 platform: freebsd
@@ -307,4 +314,4 @@ Failed: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 803.353519
+time-taken-seconds: 1359.129534
