@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@fea3845b6ef03c869ea5c57cb49d81ec424c1b32 (2012-02-06 19:43:47 -0800)
+version: jckarter/clay@49c5fa12661d5cdc78abeaaffc0716e8beb3462e (2011-12-19 16:40:49 +0100)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -69,6 +69,8 @@ externals/abi/x86_float80: out.txt mismatch
 externals/abi/x86_sse: out.txt mismatch
 externals/recursiveccodepointer: ok
 externals/recursivecodepointer: ok
+externals/ccast: ok
+externals/makeexternalcodepointer: ok
 fileio/27: ok
 fileio/28: ok
 fileio/29: ok
@@ -196,6 +198,7 @@ privateimports: ok
 queues: ok
 random: ok
 records/predicates: ok
+records/initialization: ok
 referencetypes: ok
 remote/marshaling: ok
 remote/messages/simple: ok
@@ -299,7 +302,10 @@ variants/nested: ok
 variants/predicates: ok
 variants/recursive: ok
 variants/subgraphassignment: ok
+variants/initialization: ok
+variants/variantref: ok
 dispatch: ok
+getoverload: ok
 
 [Failed]
 externals/abi/x86_float80: out.txt mismatch
@@ -309,10 +315,10 @@ floats/literals/long: out.txt mismatch
 math/sqrt: out.txt mismatch
 
 [Summary]
-Passed: 266
+Passed: 272
 Disabled: 13
 Failed: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 785.574135
+time-taken-seconds: 853.931402
