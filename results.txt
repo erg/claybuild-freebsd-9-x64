@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@e240dbaea37a868c90a22456f85f4ce2588205e6 (2012-02-18 16:43:44 -0800)
+version: jckarter/clay@efb2400aedb4aed30a709bd225a24b066def5ace (2012-02-19 09:00:56 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -221,6 +221,7 @@ sequences/predicates: ok
 sequences/ranges: ok
 sequences/staticsized: ok
 sequences/strict: ok
+sequences/concatenation: ok
 sha2: ok
 shootout/insertionsort1: ok
 shootout/insertionsort2: ok
@@ -315,10 +316,10 @@ floats/literals/long: out.txt mismatch
 math/sqrt: out.txt mismatch
 
 [Summary]
-Passed: 272
+Passed: 273
 Disabled: 13
 Failed: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 835.206889
+time-taken-seconds: 849.365160
