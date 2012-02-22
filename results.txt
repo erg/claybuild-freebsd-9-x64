@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@1998b493879602bd6815c08a914d87e7b327ab13 (2012-02-19 13:49:37 -0800)
+version: jckarter/clay@4fbefc3551333aee7c8a6b8f5c28022afdcc9e72 (2012-02-21 11:27:13 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -169,6 +169,7 @@ numbers/parser/2: ok
 numbers/parser/3: ok
 numbers/parser/4: ok
 numbers/parser/float80: ok
+numbers/quotient: ok
 operators/bitwise: ok
 operators/extendedassignment: ok
 operators/extendedassignment/butnottooextended1: ok
@@ -177,6 +178,7 @@ operators/extendedassignment2: ok
 operators/pod: ok
 operators/pod/initializers: ok
 operators/proxyassignment: ok
+operators/comparison: ok
 overloads/patterncallable: ok
 overloads/withinterface: ok
 paged/35: ok
@@ -316,10 +318,10 @@ floats/literals/long: out.txt mismatch
 math/sqrt: out.txt mismatch
 
 [Summary]
-Passed: 273
+Passed: 275
 Disabled: 13
 Failed: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 691.659016
+time-taken-seconds: 913.172592
