@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@70ece4fb378a6af642c7f7461a6eb52a82fcce9e (2012-02-22 11:41:18 -0800)
+version: jckarter/clay@a538603ebc9c7f1264de26b23f4d601c786df2c3 (2012-02-26 16:29:16 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -303,7 +303,8 @@ variants/match: ok
 variants/maybe: ok
 variants/nested: ok
 variants/predicates: ok
-variants/recursive: ok
+variants/recursive/1: ok
+variants/recursive/2: ok
 variants/subgraphassignment: ok
 variants/initialization: ok
 variants/variantref: ok
@@ -318,10 +319,10 @@ floats/literals/long: out.txt mismatch
 math/sqrt: out.txt mismatch
 
 [Summary]
-Passed: 275
+Passed: 276
 Disabled: 13
 Failed: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 923.253499
+time-taken-seconds: 918.906692
