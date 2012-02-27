@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@a538603ebc9c7f1264de26b23f4d601c786df2c3 (2012-02-26 16:29:16 -0800)
+version: jckarter/clay@c6cee1359492ca46aeb932d6430c9e9c19c1da2c (2012-02-27 14:43:43 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -86,6 +86,7 @@ globalvariables/ctorsdtors: ok
 globalvariables/predicates/1: ok
 globalvariables/predicates/2: ok
 hash/scalars: ok
+hash/variants: ok
 hashmaps: ok
 hashmaps/rvalueiteration: ok
 hashmaps/valueinitialization: ok
@@ -319,10 +320,10 @@ floats/literals/long: out.txt mismatch
 math/sqrt: out.txt mismatch
 
 [Summary]
-Passed: 276
+Passed: 277
 Disabled: 13
 Failed: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 918.906692
+time-taken-seconds: 920.168798
