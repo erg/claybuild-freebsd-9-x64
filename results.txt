@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@f8018306f9c6a6405ef3afcd8458cceaa7be4163 (2012-02-27 16:38:33 -0800)
+version: jckarter/clay@8818ee5de20aa03f1e4a7201b71458f15e6e8283 (2012-02-29 15:53:55 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -197,6 +197,7 @@ printing/formatting: ok
 printing/int128: ok
 printing/observe: ok
 printing/repr: ok
+printing/nan: ok
 privateimports: ok
 queues: ok
 random: ok
@@ -317,10 +318,10 @@ externals/abi/x86_sse: out.txt mismatch
 floats/literals: out.txt mismatch
 
 [Summary]
-Passed: 280
+Passed: 281
 Disabled: 13
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 915.787968
+time-taken-seconds: 937.044820
