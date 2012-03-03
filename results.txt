@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@de89dd5fd117737478bea49f04cba0bec3916221 (2012-03-03 19:39:37 +0000)
+version: jckarter/clay@0a9dff31e8869b85373e9558f185cc9262586a8b (2012-03-03 12:48:41 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -319,4 +319,4 @@ Failed: 3
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 990.237591
+time-taken-seconds: 975.854232
