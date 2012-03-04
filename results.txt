@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@e204b7fa6b73cd3f1ad806d2a33c83e0f2943ee8 (2012-03-03 13:05:42 -0800)
+version: jckarter/clay@2248d1d725e5910d370975c473e4180491f8f718 (2012-03-03 17:21:51 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -28,6 +28,7 @@ byteorder: ok
 callbyname/arg: ok
 callbyname/fileLineColumn: ok
 characters/1: ok
+arrays/indexing/1: ok
 codepointers/1: ok
 codepointers/2: ok
 codepointers/3: ok
@@ -123,7 +124,7 @@ llvm/3: ok
 llvm/4: ok
 llvm/intrinsics/sse/1: ok
 math/complex: ok
-math/libm: compiler error
+math/libm: ok
 math/native: ok
 math/sqrt: ok
 memory/allocateArray: ok
@@ -306,17 +307,17 @@ variants/initialization: ok
 variants/variantref: ok
 dispatch: ok
 getoverload: ok
+pointers/indexing/1: ok
 
 [Failed]
 externals/abi/x86_sse: out.txt mismatch
 floats/literals: out.txt mismatch
-math/libm: compiler error
 
 [Summary]
-Passed: 282
+Passed: 285
 Disabled: 5
-Failed: 3
+Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 979.744024
+time-taken-seconds: 979.938397
