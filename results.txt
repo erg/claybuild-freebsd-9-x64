@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@86f2d53da5eda2f5452def272e0c2d6e8cd85dbf (2012-03-22 11:38:25 -0700)
+version: jckarter/clay@747adac4757229b55ae5ddc00d9eb8daff81cb47 (2012-03-24 15:50:11 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -91,8 +91,6 @@ hash/variants: ok
 hashmaps: ok
 hashmaps/rvalueiteration: ok
 hashmaps/valueinitialization: ok
-identifiers: ok
-identifiers/ident: ok
 interfaces: ok
 interfaces/outputmismatch/1: ok
 interfaces/outputmismatch/2: ok
@@ -310,6 +308,8 @@ variants/variantref: ok
 dispatch: ok
 getoverload: ok
 pointers/indexing/1: ok
+stringliterals: ok
+stringliterals/strl: ok
 
 [Failed]
 externals/abi/x86_sse: out.txt mismatch
@@ -322,4 +322,4 @@ Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 1826.014341
+time-taken-seconds: 1813.328373
