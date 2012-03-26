@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@094b9047cb082555364ab5b55aefd0a59c14e93b (2012-03-25 11:13:14 -0700)
+version: jckarter/clay@45ed2aedf3509c9098ba39e508a42b5b654b3bab (2012-03-25 20:13:15 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -305,6 +305,10 @@ variants/recursive/2: ok
 variants/subgraphassignment: ok
 variants/initialization: ok
 variants/variantref: ok
+statementexpressions/if/1: ok
+statementexpressions/if/2: ok
+statementexpressions/while/1: ok
+statementexpressions/while/2: ok
 dispatch: ok
 getoverload: ok
 pointers/indexing/1: ok
@@ -316,10 +320,10 @@ externals/abi/x86_sse: out.txt mismatch
 floats/literals: out.txt mismatch
 
 [Summary]
-Passed: 287
+Passed: 291
 Disabled: 5
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 1081.143528
+time-taken-seconds: 1090.289746
