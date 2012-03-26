@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@45ed2aedf3509c9098ba39e508a42b5b654b3bab (2012-03-25 20:13:15 -0700)
+version: jckarter/clay@0a0620291ff169134e1333e70737776c41a2d5e4 (2012-03-26 10:06:42 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -309,6 +309,7 @@ statementexpressions/if/1: ok
 statementexpressions/if/2: ok
 statementexpressions/while/1: ok
 statementexpressions/while/2: ok
+statementexpressions/switch/1: ok
 dispatch: ok
 getoverload: ok
 pointers/indexing/1: ok
@@ -320,10 +321,10 @@ externals/abi/x86_sse: out.txt mismatch
 floats/literals: out.txt mismatch
 
 [Summary]
-Passed: 291
+Passed: 292
 Disabled: 5
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 1090.289746
+time-taken-seconds: 1103.461337
