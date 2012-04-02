@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@dc712723ce7fb422a25c8e193381fa00df35e3ba (2012-04-01 14:52:38 -0600)
+version: jckarter/clay@ce18b0cc8b3f5f98655c4f4d0ca479e44af11e90 (2012-04-01 16:51:40 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -173,6 +173,7 @@ operators/pod: ok
 operators/pod/initializers: ok
 operators/proxyassignment: ok
 operators/comparison: ok
+operators/custom2: ok
 operators/precedence: ok
 operators/custom: ok
 overloads/patterncallable: ok
@@ -321,10 +322,10 @@ externals/abi/x86_sse: out.txt mismatch
 floats/literals: out.txt mismatch
 
 [Summary]
-Passed: 292
+Passed: 293
 Disabled: 5
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 962.785154
+time-taken-seconds: 902.067544
