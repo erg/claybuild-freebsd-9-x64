@@ -128,16 +128,33 @@ Failure: compiler error
 Error:
  
  ###############################
+ inline overload call(ptr:ExternalCodePointer[CC, false, [..In], [..Out]], ..args:A) =
+     ..callExternalCodePointer(ptr,
+         ..mapValues2((arg, T) => cCast(arg, T), #countValues(..A), ..args, ..In));
+ --------------------------------------^
  
- [when MathMode?(LIBM)] inline overload log2(x:Double) = libc.log2(x);
- inline overload log2(x:Float) = libc.log2f(x);
- -------------------------------------^
- inline overload log2(x:LongDouble) = libc.log2l(x);
- 
+ [CC, ..In, ..Out]
  ###############################
- /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/math/libm/libm.clay(137,37): error: undefined name: log2f
+ /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/pointers/pointers.clay(259,38): error: no matching overload found
+     /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/pointers/pointers.clay(253,0)
+         pattern "#F" did not match type "Static[Float32]" of argument 2
+     /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/pointers/pointers.clay(250,0)
+         pattern "#Pointer[CChar]" did not match type "Static[Float32]" of argument 2
+     /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/pointers/pointers.clay(247,0)
+         predicate "CCastable?(F, T)" failed
+     92 universal overloads not shown (show with -full-match-errors option)
  
  compilation context: 
+     cCast(Float64, Static[Float32])
+   /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/pointers/pointers.clay(259,38):
+     ((arg, T) => cCast(arg, T))(Float64, Static[Float32])
+   /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/values/values.clay(160,16):
+     mapValues2(Static[((arg, T) => cCast(arg, T))], Static[1], Float64, Static[Float32])
+   /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/pointers/pointers.clay(259,20):
+     call(ExternalCodePointer[AttributeCCall, false, [Float32], [Float32]], Float64)
+   /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/libc/libc.freebsd.clay(7,37):
+     log2f(Float32)
+   /usr/home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/math/libm/libm.clay(137,42):
      log2(Float32)
    /usr/home/erg/clay-autobuild/test/math/native/test.clay(50,54):
      evalFuncs(Static[oneArgFuncs], Array[Float32, 19])
