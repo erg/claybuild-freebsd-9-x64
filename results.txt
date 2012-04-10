@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@de9463c66af50a6c98ca71a5a4be579ff6b3da81 (2012-04-09 15:57:40 -0700)
+version: jckarter/clay@02b5588ff928815e19f00314ec7d5b1e3b15c05b (2012-04-09 16:59:23 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -122,7 +122,7 @@ llvm/3: ok
 llvm/4: ok
 llvm/intrinsics/sse/1: ok
 math/complex: ok
-math/native: compiler error
+math/native: ok
 math/libm: ok
 math/sqrt: ok
 memory/allocateArray: ok
@@ -320,13 +320,12 @@ stringliterals/strl: ok
 [Failed]
 externals/abi/x86_sse: out.txt mismatch
 floats/literals: out.txt mismatch
-math/native: compiler error
 
 [Summary]
-Passed: 292
+Passed: 293
 Disabled: 5
-Failed: 3
+Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 893.815381
+time-taken-seconds: 909.077024
