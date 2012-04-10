@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@cabcfc35653951d96af58e04433b716990048e2c (2012-04-10 14:57:16 -0700)
+version: jckarter/clay@47bbe7f7bb13f51373818d0006cc64615abb621a (2012-04-10 15:10:05 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -45,7 +45,7 @@ computedrecords/custompredicate: ok
 computedrecords/customproperty: ok
 coordinates: ok
 defaultarguments: ok
-deques: disabled
+deques: ok
 deques/memory: ok
 destructors: ok
 enums/predicates: ok
@@ -322,10 +322,10 @@ externals/abi/x86_sse: out.txt mismatch
 floats/literals: out.txt mismatch
 
 [Summary]
-Passed: 293
-Disabled: 5
+Passed: 294
+Disabled: 4
 Failed: 2
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 685.746803
+time-taken-seconds: 684.149806
