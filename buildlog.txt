@@ -1,10 +1,3 @@
--- Could NOT find Subversion (missing:  Subversion_SVN_EXECUTABLE) 
--- libclang is either missing or needs to be patched to support
--- bindgen. bindgen will not be built. Try applying the patch in
--- tools/libclang.diff to the Clang source.
--- Configuring done
--- Generating done
--- Build files have been written to: /home/erg/clay-autobuild/build
 [  4%] Building CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.o
 [  8%] Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
 [ 12%] Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
