@@ -1,1 +1,1 @@
-jckarter/clay@fc3bd4ea1e9c59fca5576b1a274c29e5ea049bc7 (2012-04-13 11:26:50 -0700)
+jckarter/clay@dfaac520af0d1b014bfb8b19667a4ed3fd9ea563 (2012-04-13 19:32:24 +0100)
