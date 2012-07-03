@@ -1,55 +1,898 @@
 [  4%] Building CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/analyzer.cpp:2:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+    if ((int)args.size() != size)
+        ~~~~~~~~~~~~~~~~ ^  ~~~~
+/home/erg/clay-autobuild/compiler/src/analyzer.cpp:2294:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Identifier> >' requested here
+        ensureArity(x->names, 1);
+        ^
+In file included from /home/erg/clay-autobuild/compiler/src/analyzer.cpp:2:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+    if ((int)args.size() != size)
+        ~~~~~~~~~~~~~~~~ ^  ~~~~
+/home/erg/clay-autobuild/compiler/src/analyzer.cpp:2295:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Expr> >' requested here
+        ensureArity(x->values->exprs, 1);
+        ^
+/home/erg/clay-autobuild/compiler/src/analyzer.cpp:99:16: warning: unused function 'valueToComplexType' [-Wunused-function]
+static TypePtr valueToComplexType(MultiPValuePtr x, unsigned index)
+               ^
+/home/erg/clay-autobuild/compiler/src/analyzer.cpp:265:23: warning: unused function 'complexTypeOfValue' [-Wunused-function]
+static ComplexTypePtr complexTypeOfValue(MultiPValuePtr x, unsigned index)
+                      ^
+10 warnings generated.
 [  8%] Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/clone.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 12%] Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/codegen.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:907:21: warning: unused variable 'y' [-Wunused-variable]
+            Unpack *y = (Unpack *)x.ptr();
+                    ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:1452:10: warning: unused variable 'result' [-Wunused-variable]
+    bool result = codegenStatement(init, x->env, constructorsCtx);
+         ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:1456:18: warning: unused variable 'entry' [-Wunused-variable]
+    InvokeEntry* entry =
+                 ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:2022:27: warning: unused variable 't' [-Wunused-variable]
+        CCodePointerType *t = (CCodePointerType *)pv.type.ptr();
+                          ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:3488:18: warning: unused variable 'terminated' [-Wunused-variable]
+            bool terminated = codegenStatement(*i, env2, ctx);
+                 ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:5932:32: warning: unused variable 'fieldTypes' [-Wunused-variable]
+        const vector<TypePtr> &fieldTypes = recordFieldTypes(rt);
+                               ^
+In file included from /home/erg/clay-autobuild/compiler/src/codegen.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+    if ((int)args.size() != size)
+        ~~~~~~~~~~~~~~~~ ^  ~~~~
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:4227:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Identifier> >' requested here
+        ensureArity(x->names, 1);
+        ^
+In file included from /home/erg/clay-autobuild/compiler/src/codegen.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+    if ((int)args.size() != size)
+        ~~~~~~~~~~~~~~~~ ^  ~~~~
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:4228:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Expr> >' requested here
+        ensureArity(x->values->exprs, 1);
+        ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:4400:23: warning: unused function 'valueToComplexType' [-Wunused-function]
+static ComplexTypePtr valueToComplexType(MultiCValuePtr args, unsigned index)
+                      ^
+/home/erg/clay-autobuild/compiler/src/codegen.cpp:4551:21: warning: unused function 'complexValue' [-Wunused-function]
+static llvm::Value *complexValue(MultiCValuePtr args,
+                    ^
+16 warnings generated.
 [ 16%] Building CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/constructors.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 20%] Building CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/desugar.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/env.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 29%] Building CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/error.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 33%] Building CXX object compiler/src/CMakeFiles/clay.dir/evaluator.cpp.o
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3088:6: warning: #warning "--- The following warnings are expected ---"
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerShiftLeftChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3122: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3132: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerShiftLeftChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3122: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3132: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerQuotientChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3191: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerQuotientChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3191: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerSubtractChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3111: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerSubtractChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3111: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerAddChecked<T>::perform(T&, T&, void*) [with T = short unsigned int]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3099: warning: comparison is always false due to limited range of data type
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp: In member function 'void clay::Op_integerAddChecked<T>::perform(T&, T&, void*) [with T = unsigned char]':
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4755:   instantiated from here
-/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3099: warning: comparison is always false due to limited range of data type
+In file included from /home/erg/clay-autobuild/compiler/src/evaluator.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3041:34: warning: extra ';' outside of a function [-pedantic]
+UNARY_OP(Op_numericNegate, T, -a);
+                                 ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3042:38: warning: extra ';' outside of a function [-pedantic]
+UNARY_OP(Op_integerBitwiseNot, T, ~a);
+                                     ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4300:32: warning: unused variable 'fieldTypes' [-Wunused-variable]
+        const vector<TypePtr> &fieldTypes = recordFieldTypes(rt);
+                               ^
+In file included from /home/erg/clay-autobuild/compiler/src/evaluator.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+    if ((int)args.size() != size)
+        ~~~~~~~~~~~~~~~~ ^  ~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:2448:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Identifier> >' requested here
+        ensureArity(x->names, 1);
+        ^
+In file included from /home/erg/clay-autobuild/compiler/src/evaluator.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+    if ((int)args.size() != size)
+        ~~~~~~~~~~~~~~~~ ^  ~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:2449:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Expr> >' requested here
+        ensureArity(x->values->exprs, 1);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3063:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<char>::perform' requested here
+        case 8 :  T<char>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3064:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<short>::perform' requested here
+        case 16 : T<short>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3065:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<int>::perform' requested here
+        case 32 : T<int>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3066:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<long long>::perform' requested here
+        case 64 : T<long long>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3067:20: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<clay::int128_holder>::perform' requested here
+        case 128 : T<clay_int128>().eval(a, b, out); break;
+                   ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3073:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<unsigned char>::perform' requested here
+        case 8 :  T<unsigned char>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3074:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<unsigned short>::perform' requested here
+        case 16 : T<unsigned short>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3075:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<unsigned int>::perform' requested here
+        case 32 : T<unsigned int>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3076:19: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<unsigned long long>::perform' requested here
+        case 64 : T<unsigned long long>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3180:14: warning: unused variable 'bigout' [-Wunused-variable]
+        BigT bigout = BigT(a) * BigT(b);
+             ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3077:20: note: in instantiation of member function 'clay::Op_integerMultiplyChecked<clay::uint128_holder>::perform' requested here
+        case 128 : T<clay_uint128>().eval(a, b, out); break;
+                   ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3863:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerMultiplyChecked>' requested here
+        binaryIntegerOp<Op_integerMultiplyChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3193:18: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+            && b == -1)
+               ~ ^  ~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3075:19: note: in instantiation of member function 'clay::Op_integerQuotientChecked<unsigned int>::perform' requested here
+        case 32 : T<unsigned int>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3875:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerQuotientChecked>' requested here
+        binaryIntegerOp<Op_integerQuotientChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3193:18: warning: comparison of integers of different signs: 'unsigned long long' and 'int' [-Wsign-compare]
+            && b == -1)
+               ~ ^  ~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3076:19: note: in instantiation of member function 'clay::Op_integerQuotientChecked<unsigned long long>::perform' requested here
+        case 64 : T<unsigned long long>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3875:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerQuotientChecked>' requested here
+        binaryIntegerOp<Op_integerQuotientChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3193:18: warning: comparison of integers of different signs: 'size64_t' (aka 'unsigned long long') and 'int' [-Wsign-compare]
+            && b == -1)
+               ~ ^  ~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3077:20: note: in instantiation of member function 'clay::Op_integerQuotientChecked<clay::uint128_holder>::perform' requested here
+        case 128 : T<clay_uint128>().eval(a, b, out); break;
+                   ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3875:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerQuotientChecked>' requested here
+        binaryIntegerOp<Op_integerQuotientChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3133:19: warning: comparison of integers of different signs: 'char' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 - 1 || (testa >> (sizeof(T)*8 - b - 1)) != 0)
+                ~ ^ ~~~~~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3063:19: note: in instantiation of member function 'clay::Op_integerShiftLeftChecked<char>::perform' requested here
+        case 8 :  T<char>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4005:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerShiftLeftChecked>' requested here
+        binaryIntegerOp<Op_integerShiftLeftChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3137:19: warning: comparison of integers of different signs: 'char' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 || (a >> (sizeof(T)*8 - b)) != 0)
+                ~ ^ ~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3133:19: warning: comparison of integers of different signs: 'short' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 - 1 || (testa >> (sizeof(T)*8 - b - 1)) != 0)
+                ~ ^ ~~~~~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3064:19: note: in instantiation of member function 'clay::Op_integerShiftLeftChecked<short>::perform' requested here
+        case 16 : T<short>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4005:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerShiftLeftChecked>' requested here
+        binaryIntegerOp<Op_integerShiftLeftChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3137:19: warning: comparison of integers of different signs: 'short' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 || (a >> (sizeof(T)*8 - b)) != 0)
+                ~ ^ ~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3133:19: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 - 1 || (testa >> (sizeof(T)*8 - b - 1)) != 0)
+                ~ ^ ~~~~~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3065:19: note: in instantiation of member function 'clay::Op_integerShiftLeftChecked<int>::perform' requested here
+        case 32 : T<int>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4005:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerShiftLeftChecked>' requested here
+        binaryIntegerOp<Op_integerShiftLeftChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3137:19: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 || (a >> (sizeof(T)*8 - b)) != 0)
+                ~ ^ ~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3133:19: warning: comparison of integers of different signs: 'long long' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 - 1 || (testa >> (sizeof(T)*8 - b - 1)) != 0)
+                ~ ^ ~~~~~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3066:19: note: in instantiation of member function 'clay::Op_integerShiftLeftChecked<long long>::perform' requested here
+        case 64 : T<long long>().eval(a, b, out); break;
+                  ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4005:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerShiftLeftChecked>' requested here
+        binaryIntegerOp<Op_integerShiftLeftChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3137:19: warning: comparison of integers of different signs: 'long long' and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 || (a >> (sizeof(T)*8 - b)) != 0)
+                ~ ^ ~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3133:19: warning: comparison of integers of different signs: 'ptrdiff64_t' (aka 'long long') and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 - 1 || (testa >> (sizeof(T)*8 - b - 1)) != 0)
+                ~ ^ ~~~~~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3067:20: note: in instantiation of member function 'clay::Op_integerShiftLeftChecked<clay::int128_holder>::perform' requested here
+        case 128 : T<clay_int128>().eval(a, b, out); break;
+                   ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:4005:9: note: in instantiation of function template specialization 'clay::binaryIntegerOp<Op_integerShiftLeftChecked>' requested here
+        binaryIntegerOp<Op_integerShiftLeftChecked>(ev0, ev1, out0);
+        ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:3137:19: warning: comparison of integers of different signs: 'ptrdiff64_t' (aka 'long long') and 'unsigned long' [-Wsign-compare]
+            if (b > sizeof(T)*8 || (a >> (sizeof(T)*8 - b)) != 0)
+                ~ ^ ~~~~~~~~~~~
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:2538:23: warning: unused function 'valueToComplexType' [-Wunused-function]
+static ComplexTypePtr valueToComplexType(MultiEValuePtr args, unsigned index)
+                      ^
+/home/erg/clay-autobuild/compiler/src/evaluator.cpp:2682:18: warning: unused function 'complexValue' [-Wunused-function]
+static EValuePtr complexValue(MultiEValuePtr args, unsigned index,
+                 ^
+36 warnings generated.
 [ 37%] Building CXX object compiler/src/CMakeFiles/clay.dir/externals.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/externals.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/externals.cpp:29:13: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+            else
+            ^
+In file included from /home/erg/clay-autobuild/compiler/src/externals.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+8 warnings generated.
 [ 41%] Building CXX object compiler/src/CMakeFiles/clay.dir/hirestimer.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/hirestimer.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 45%] Building CXX object compiler/src/CMakeFiles/clay.dir/invoketables.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/invoketables.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 50%] Building CXX object compiler/src/CMakeFiles/clay.dir/lambdas.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/lambdas.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 54%] Building CXX object compiler/src/CMakeFiles/clay.dir/lexer.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/lexer.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 58%] Building CXX object compiler/src/CMakeFiles/clay.dir/literals.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/literals.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/literals.cpp:47:10: warning: unused variable 'negExponentp' [-Wunused-variable]
+    bool negExponentp = false;
+         ^
+In file included from /home/erg/clay-autobuild/compiler/src/literals.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+8 warnings generated.
 [ 62%] Building CXX object compiler/src/CMakeFiles/clay.dir/loader.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/loader.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1121:42: warning: extra ';' outside of a function [-pedantic]
+DEFINE_PRIMITIVE_ACCESSOR(AttributeCCall);
+                                         ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1122:44: warning: extra ';' outside of a function [-pedantic]
+DEFINE_PRIMITIVE_ACCESSOR(AttributeStdCall);
+                                           ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1123:45: warning: extra ';' outside of a function [-pedantic]
+DEFINE_PRIMITIVE_ACCESSOR(AttributeFastCall);
+                                            ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1124:45: warning: extra ';' outside of a function [-pedantic]
+DEFINE_PRIMITIVE_ACCESSOR(AttributeThisCall);
+                                            ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1125:45: warning: extra ';' outside of a function [-pedantic]
+DEFINE_PRIMITIVE_ACCESSOR(AttributeLLVMCall);
+                                            ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1192:43: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(DispatchTagCount);
+                                          ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1200:46: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerAddChecked);
+                                             ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1201:51: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerSubtractChecked);
+                                                  ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1202:51: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerMultiplyChecked);
+                                                  ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1203:51: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerQuotientChecked);
+                                                  ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1204:52: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerRemainderChecked);
+                                                   ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1205:52: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerShiftLeftChecked);
+                                                   ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1206:49: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerNegateChecked);
+                                                ^
+/home/erg/clay-autobuild/compiler/src/loader.cpp:1207:50: warning: extra ';' outside of a function [-pedantic]
+DEFINE_OPERATOR_ACCESSOR(doIntegerConvertChecked);
+                                                 ^
+In file included from /home/erg/clay-autobuild/compiler/src/loader.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+21 warnings generated.
 [ 66%] Building CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/main.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/main.cpp:143:10: warning: unused variable 'result' [-Wunused-variable]
+    bool result = targetMachine->addPassesToEmitFile(
+         ^
+/home/erg/clay-autobuild/compiler/src/main.cpp:790:68: warning: cast between pointer-to-function and pointer-to-object is an extension [-pedantic]
+    PathString clayExe(llvm::sys::Path::GetMainExecutable(argv[0], (void *)&usage).c_str());
+                                                                   ^~~~~~~~~~~~~~
+In file included from /home/erg/clay-autobuild/compiler/src/main.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+9 warnings generated.
 [ 70%] Building CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/matchinvoke.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 75%] Building CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/objects.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/objects.cpp:101:27: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+        for (int i = 0; i < n; ++i)
+                        ~ ^ ~
+In file included from /home/erg/clay-autobuild/compiler/src/objects.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+8 warnings generated.
 [ 79%] Building CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/parachute.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 83%] Building CXX object compiler/src/CMakeFiles/clay.dir/parser.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/parser.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 87%] Building CXX object compiler/src/CMakeFiles/clay.dir/patterns.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/patterns.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/patterns.cpp:13:34: warning: unused variable 'elements' [-Wunused-variable]
+        const vector<ObjectPtr> &elements = params->values;
+                                 ^
+In file included from /home/erg/clay-autobuild/compiler/src/patterns.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+8 warnings generated.
 [ 91%] Building CXX object compiler/src/CMakeFiles/clay.dir/printer.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/printer.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [ 95%] Building CXX object compiler/src/CMakeFiles/clay.dir/profiler.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/profiler.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 [100%] Building CXX object compiler/src/CMakeFiles/clay.dir/types.cpp.o
+In file included from /home/erg/clay-autobuild/compiler/src/types.cpp:1:
+/home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
+        if (llvm::error_code ec = llvm::MemoryBuffer::getFileOrSTDIN(fileName, buffer))
+                             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:973:14: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    T_DOC_END,
+             ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:982:58: warning: field 'tokenKind' will be initialized after field 'str' [-Wreorder]
+    explicit Token(int tokenKind, llvm::StringRef str) : tokenKind(tokenKind), str(str) {}
+                                                         ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1220:12: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    IF_EXPR,
+           ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:1246:27: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    Procedure_PolyOverload,
+                          ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
+    ONERROR_STATEMENT,
+                     ^
+/home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
+static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
+               ^
+7 warnings generated.
 Linking CXX executable clay
 [100%] Built target clay
