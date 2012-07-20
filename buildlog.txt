@@ -1,3 +1,8 @@
+-- Could NOT find Subversion (missing:  Subversion_SVN_EXECUTABLE) 
+-- libclang is missing, so bindgen will not be built.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/erg/clay-autobuild/build
 [  4%] Building CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.o
 In file included from /home/erg/clay-autobuild/compiler/src/analyzer.cpp:2:
 /home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
