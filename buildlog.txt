@@ -564,18 +564,10 @@ In file included from /home/erg/clay-autobuild/compiler/src/lexer.cpp:1:
 /home/erg/clay-autobuild/compiler/src/clay.hpp:3726:22: warning: commas at the end of enumerator lists are a C++11-specific feature [-pedantic]
     ONERROR_STATEMENT,
                      ^
-/home/erg/clay-autobuild/compiler/src/lexer.cpp:874:21: warning: '&&' within '||' [-Wlogical-op-parentheses]
-    if (!docIsBlock && c == '\n' || c == '\r')
-        ~~~~~~~~~~~~^~~~~~~~~~~~ ~~
-/home/erg/clay-autobuild/compiler/src/lexer.cpp:874:21: note: place parentheses around the '&&' expression to silence this warning
-    if (!docIsBlock && c == '\n' || c == '\r')
-                    ^
-        (                       )
-In file included from /home/erg/clay-autobuild/compiler/src/lexer.cpp:1:
 /home/erg/clay-autobuild/compiler/src/clay.hpp:3849:16: warning: unused function 'implicitUnpackExpr' [-Wunused-function]
 static ExprPtr implicitUnpackExpr(unsigned wantCount, ExprListPtr exprs) {
                ^
-8 warnings generated.
+7 warnings generated.
 [ 58%] Building CXX object compiler/src/CMakeFiles/clay.dir/literals.cpp.o
 In file included from /home/erg/clay-autobuild/compiler/src/literals.cpp:1:
 /home/erg/clay-autobuild/compiler/src/clay.hpp:735:30: warning: unused variable 'ec' [-Wunused-variable]
