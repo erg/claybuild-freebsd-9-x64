@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@89c873567d986bf12cba9f498de3ba8a01325272 (2012-07-21 16:51:14 -0700)
+version: jckarter/clay@5acc635e6646832319911b199788bb8957649d7c (2012-07-29 08:26:27 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -186,6 +186,7 @@ paged/37: ok
 paged/38: ok
 parsing: ok
 parsing/calculator: ok
+parsing/combinators/generic: ok
 patterns: ok
 permissive: ok
 platform: ok
@@ -322,9 +323,9 @@ stringliterals/strl: ok
 claydoc: ok
 
 [Summary]
-Passed: 298
+Passed: 299
 Disabled: 6
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 967.420285
+time-taken-seconds: 991.956760
