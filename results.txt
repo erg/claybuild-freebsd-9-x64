@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@b9601a7e1bc8c0a818bbe44245274a783ec19edb (2012-07-29 10:42:09 -0700)
+version: jckarter/clay@5862a15b0894f46b2b6dd750469834e089c9f547 (2012-07-30 09:18:50 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -239,6 +239,7 @@ strings: ok
 strings/encodings/utf8: ok
 strings/triplequoting: ok
 test/1: ok
+test/repr: ok
 time: ok
 tuples/1: ok
 tuples/emptytuple: ok
@@ -323,9 +324,9 @@ stringliterals/strl: ok
 claydoc: ok
 
 [Summary]
-Passed: 299
+Passed: 300
 Disabled: 6
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 1008.346860
+time-taken-seconds: 1053.707319
