@@ -21,14 +21,14 @@ In file included from /home/erg/clay-autobuild/compiler/src/analyzer.cpp:2:
 /home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
     if ((int)args.size() != size)
         ~~~~~~~~~~~~~~~~ ^  ~~~~
-/home/erg/clay-autobuild/compiler/src/analyzer.cpp:2294:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Identifier> >' requested here
+/home/erg/clay-autobuild/compiler/src/analyzer.cpp:2315:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Identifier> >' requested here
         ensureArity(x->names, 1);
         ^
 In file included from /home/erg/clay-autobuild/compiler/src/analyzer.cpp:2:
 /home/erg/clay-autobuild/compiler/src/clay.hpp:894:26: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
     if ((int)args.size() != size)
         ~~~~~~~~~~~~~~~~ ^  ~~~~
-/home/erg/clay-autobuild/compiler/src/analyzer.cpp:2295:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Expr> >' requested here
+/home/erg/clay-autobuild/compiler/src/analyzer.cpp:2316:9: note: in instantiation of function template specialization 'clay::ensureArity<clay::Pointer<clay::Expr> >' requested here
         ensureArity(x->values->exprs, 1);
         ^
 /home/erg/clay-autobuild/compiler/src/analyzer.cpp:99:16: warning: unused function 'valueToComplexType' [-Wunused-function]

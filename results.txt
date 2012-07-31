@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@da8d013f25660d50230e03981b95cc5ed942d103 (2012-07-31 09:14:33 -0700)
+version: jckarter/clay@2695e214ca575cc91e05e87578bbc7aa3cff2aaa (2012-07-31 10:23:15 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -94,6 +94,9 @@ hashmaps/valueinitialization: ok
 interfaces: ok
 interfaces/outputmismatch/1: ok
 interfaces/outputmismatch/2: ok
+interfaces/constructors/1: ok
+interfaces/constructors/2: ok
+interfaces/constructors/3: ok
 io/paths: ok
 io/sockets/addresses: ok
 io/sockets/connections: ok
@@ -325,9 +328,9 @@ stringliterals/strl: ok
 claydoc: ok
 
 [Summary]
-Passed: 301
+Passed: 304
 Disabled: 6
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 1025.958169
+time-taken-seconds: 1026.029980
