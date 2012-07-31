@@ -1,6 +1,6 @@
 [System]
 platform: FreeBSD-9.0-RELEASE-amd64-64bit-ELF
-version: jckarter/clay@5862a15b0894f46b2b6dd750469834e089c9f547 (2012-07-30 09:18:50 -0700)
+version: jckarter/clay@f931ec424fb0b8d65a8d143b10475d5773909f0d (2012-07-31 09:08:39 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -141,6 +141,7 @@ modules/imports/disambiguated2: ok
 modules/imports/disambiguated3: ok
 modules/imports/suggest: ok
 modules/imports/aliasqualified: ok
+modules/imports/issue266: ok
 modules/name: ok
 modules/introspection: ok
 monads: ok
@@ -324,9 +325,9 @@ stringliterals/strl: ok
 claydoc: ok
 
 [Summary]
-Passed: 300
+Passed: 301
 Disabled: 6
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 1053.707319
+time-taken-seconds: 1110.754139
